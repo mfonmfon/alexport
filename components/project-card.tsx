@@ -1,3 +1,4 @@
+
 "use client"
 
 import { motion } from "framer-motion"
@@ -7,6 +8,8 @@ import { ArrowUpRight, Calendar, User2 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { useModal } from "@/contexts/modal-context"
 import ProjectDetail from "@/components/project-detail"
+import { StaticImageData } from "next/image"
+
 
 interface ProjectCardProps {
   title: string
@@ -73,7 +76,7 @@ export default function ProjectCard({
       >
         <div className="relative h-64 w-full overflow-hidden">
           <Image
-            src={image || "/placeholder.svg"}
+            src={typeof image === "string" ? image : image }
             alt={title}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
