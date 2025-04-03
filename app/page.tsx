@@ -53,20 +53,20 @@ export default function Home() {
           style={{ opacity, scale }}
           className="max-w-4xl mx-auto z-10 px-4 sm:px-6 lg:px-8"
         >
-          <p className="text-primary font-medium mb-4 tracking-wide text-sm sm:text-base md:text-lg">
+          <p className="text-primary font-medium mb-4 tracking-wide text-xs sm:text-sm md:text-base lg:text-lg">
             DIGITAL CREATOR & DEVELOPER
           </p>
-          <h1 className="text-7xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
             Crafting Digital <br /> Experiences That <span className="text-primary">Inspire</span>
           </h1>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
             I create engaging digital solutions that connect brands with their audience and drive meaningful results
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="rounded-full px-8 text-sm sm:text-base">
+            <Button size="lg" className="rounded-full px-6 sm:px-8 text-xs sm:text-sm md:text-base">
               View My Work
             </Button>
-            <Button size="lg" variant="outline" className="rounded-full px-8 text-sm sm:text-base text-white border-white hover:bg-white/10">
+            <Button size="lg" variant="outline" className="rounded-full px-6 sm:px-8 text-xs sm:text-sm md:text-base text-white border-white hover:bg-white/10">
               Contact Me
             </Button>
           </div>
@@ -76,7 +76,7 @@ export default function Home() {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
         >
-          <ArrowDown className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 text-white" />
         </motion.div>
       </section>
 
