@@ -173,7 +173,7 @@ export default function Home() {
                 description="Homebase"
                 category="Digital Creator"
                 image={ HomebasePortfolioImageBanckground.src} //  use the `src` property of the imported image
-                date="June 2023"
+                date="June2024 - Jan2025"
                 client="TechVision Inc."
                 tags={["Story Writing", "Copy writing", "Social Media Management"]}
                 challenge="Crafted compelling visual content showcasing Homease's products and services, highlighting 
@@ -207,7 +207,7 @@ export default function Home() {
                 description="Chekker"
                 category="Digital Creator"
                 image={ MyChekkerPortfolioImageBanckground.src}
-                date="March 2023"
+                date="May 2023 till Date"
                 client="HealthTech"
                 tags={["Social Media Manager", "Content Creation", "SEO"]}
                 challenge="Developed and implemented strategies to enhance user engagement on Checker's digital 
@@ -221,7 +221,7 @@ export default function Home() {
                 description="Rootshive"
                 category="Digital Creator"
                 image={RootShivePortfolioImageBanckground.src}
-                date="February 2023"
+                date="April 2024 till Date"
                 client="Fintech"
                 tags={["Social Media Manager", "Content Creation", "SEO"]}
                 challenge="Assisted in developing and refining Rootshive's digital brand identity, ensuring consistency 
@@ -234,7 +234,7 @@ export default function Home() {
                 description="Alumoni360"
                 category="Digital Creator"
                 image={AlumiumPortfolioImageBanckground.src}
-                date="January 2023"
+                date="Nov 2024 till Date"
                 client="Innovate Products"
                 challenge="Designed and executed digital campaigns to elevate Alumoni360's brand presence within the 
                 Mineral technology sector. "
@@ -377,12 +377,12 @@ export default function Home() {
                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                   </svg>
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+                {/* <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
                   <span className="sr-only">Dribbble</span>
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 01-1.727 3.884 8.508 8.508 0 01-5.586 2.274c-.595.061-1.128.138-1.621.221a18.633 18.633 0 00-2.23 1.054c-.652.341-1.153.85-1.42 1.506-.268.657-.063 1.133.22 1.401a8.451 8.451 0 011.119.584 a9.792 9.792 0 011.863.143 11.283 11.283 0 003.418-.582 8.514 8.514 0 004.782-2.352z" clipRule="evenodd" />
                   </svg>
-                </Link>
+                </Link> */}
             </div>
           </div>
         </div>
