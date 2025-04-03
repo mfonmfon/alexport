@@ -169,8 +169,8 @@ export default function Home() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
               <ProjectCard
-                title="Homebase"
-                description="Homebase"
+                title="Homease"
+                description="Homease"
                 category="Digital Creator"
                 image={ HomebasePortfolioImageBanckground.src} //  use the `src` property of the imported image
                 date="June2024 - Jan2025"
