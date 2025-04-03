@@ -13,7 +13,7 @@ import Navbar from "@/components/navbar"
 import TestimonialCard from "@/components/testimonial-card"
 import ProcessStepper from "@/components/process-stepper"
 import AlexHeroSectionBackgroundImage from "@/public/images/alexherosection.jpg"
-import AlexAboutBackgroundImage from "@/public/images/SecondBackgroundImage.jpg"
+import AlexAboutBackgroundImage from "@/public/images/alexPics.jpg"
 import RootShivePortfolioImageBanckground from "/public/images/rootshive.jpg"
 import MyChekkerPortfolioImageBanckground from "@/public/images/chekker.jpg"
 import OwnNaijaPortfolioImageBanckground from "@/public/images/ownNaija.jpg"
@@ -42,7 +42,7 @@ export default function Home() {
             alt="Digital Creator"
             fill
             priority
-            className="object-cover"
+            className="object-cover object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
         </div>
