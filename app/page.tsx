@@ -56,7 +56,7 @@ export default function Home() {
           <p className="text-primary font-medium mb-4 tracking-wide text-sm sm:text-base md:text-lg">
             DIGITAL CREATOR & DEVELOPER
           </p>
-          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
+          <h1 className="text-7xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
             Crafting Digital <br /> Experiences That <span className="text-primary">Inspire</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto">
@@ -95,7 +95,7 @@ export default function Home() {
                 <p className="text-primary font-medium mb-2 tracking-wide">ABOUT ME</p>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Turning Ideas Into Digital Reality</h2>
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                My name is Alexander Awharota Ogheneovo, I'm a Digital Creator  with a strong foundation in [ Copywriting , ConteReddit nt writing , technical writing,  design, social media management, storytelling , script writing and Sponsored ads]
+                My name is Alexander Awharota Ogheneovo, I'm a Digital Creator  with a strong foundation in [ Copywriting , Content writing , technical writing,  design, social media management, storytelling , script writing and Sponsored ads]
 
                 </p>
                 <p className="text-lg text-gray-300 mb-8 leading-relaxed">
@@ -230,8 +230,8 @@ export default function Home() {
                 Rootshive's target audience, encouraging interaction and participation."  
               />
               <ProjectCard
-                title="Alumium"
-                description="Alumium"
+                title="Alumoni360"
+                description="Alumoni360"
                 category="Digital Creator"
                 image={AlumiumPortfolioImageBanckground.src}
                 date="January 2023"
@@ -274,22 +274,22 @@ export default function Home() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <SkillCard
-                title="UI/UX Design"
+                title="Content Writing "
               />
               <SkillCard
-                title="Web Development"
+                title="Social Media Management"
               />
               <SkillCard
-                title="Digital Strategy"
+                title="Copy Writing "
               />
               <SkillCard
-                title="Brand Identity"
+                title="Technical Writing"
               />
               <SkillCard
-                title="Mobile Development"
+                title="Content Creation"
               />
               <SkillCard
-                title="SEO Optimization"
+                title="Digital Marketing Strategist"
               />
             </div>
           </motion.div>
